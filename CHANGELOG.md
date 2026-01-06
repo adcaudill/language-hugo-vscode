@@ -5,6 +5,8 @@
 - Project forked to correct various issues and bugs.
 - Fix syntax highlighting of global variables
 - Fixing syntax highlight for multiline string
+- Fix missing escape sequences in RegExp
+- Added handling for embedded escaped quotes in strings
 
 ## 1.3.1
 

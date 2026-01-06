@@ -86,17 +86,35 @@
         {
           "begin": "'",
           "end": "'",
-          "name": "string.quoted.single.hugo"
+          "name": "string.quoted.single.hugo",
+          "patterns": [
+            {
+              "match": "\\\\.",
+              "name": "constant.character.escape.hugo"
+            }
+          ]
         },
         {
           "begin": "\"",
           "end": "\"",
-          "name": "string.quoted.single.hugo"
+          "name": "string.quoted.double.hugo",
+          "patterns": [
+            {
+              "match": "\\\\.",
+              "name": "constant.character.escape.hugo"
+            }
+          ]
         },
         {
           "begin": "`",
           "end": "`",
-          "name": "string.quoted.single.hugo"
+          "name": "string.quoted.backtick.hugo",
+          "patterns": [
+            {
+              "match": "\\\\.",
+              "name": "constant.character.escape.hugo"
+            }
+          ]
         }
       ]
     },
@@ -121,17 +139,35 @@
         {
           "begin": "'",
           "end": "'",
-          "name": "string.quoted.single.hugo"
+          "name": "string.quoted.single.hugo",
+          "patterns": [
+            {
+              "match": "\\\\.",
+              "name": "constant.character.escape.hugo"
+            }
+          ]
         },
         {
           "begin": "\"",
           "end": "\"",
-          "name": "string.quoted.single.hugo"
+          "name": "string.quoted.double.hugo",
+          "patterns": [
+            {
+              "match": "\\\\.",
+              "name": "constant.character.escape.hugo"
+            }
+          ]
         },
         {
           "begin": "`",
           "end": "`",
-          "name": "string.quoted.single.hugo"
+          "name": "string.quoted.backtick.hugo",
+          "patterns": [
+            {
+              "match": "\\\\.",
+              "name": "constant.character.escape.hugo"
+            }
+          ]
         }
       ]
     }
