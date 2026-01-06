@@ -7,6 +7,16 @@ Syntax highlighting and snippets for [Hugo](https://gohugo.io/) websites.
 This is a fork of [language-hugo-vscode](https://github.com/theNewDynamic/language-hugo-vscode) which has not
 been updated in a few years. This fork is to address a few issues that are preventing me from using it properly.
 
+### Building Locally
+
+This extension is not currently published, and must be installed locally. To build, first install the dependencies:
+
+```
+npm install --global yo generator-code @vscode/vsce
+```
+
+Once the dependencies are installed, the extension can be built by running `build.sh`. This will create a file named `language-hugo-vscode-2.0.0.vsix`. If you right-click this file in the VS Code explorer, and select "Install Extension VSIX", this will install the extension.
+
 ## Features
 
 Makes Hugo templating fit in with the rest of your HTML.
