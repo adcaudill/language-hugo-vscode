@@ -7,6 +7,7 @@
 - Fixing syntax highlight for multiline string
 - Fix missing escape sequences in RegExp
 - Added handling for embedded escaped quotes in strings
+- Added handling for templates in HTML quoted strings
 
 ## 1.3.1
 
