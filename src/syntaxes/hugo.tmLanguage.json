@@ -68,7 +68,7 @@
         },
         {
           "begin": "\\$\\.",
-          "end": "\\s",
+          "end": "\\s|[\\w.]*",
           "name": "support.function.builtin.hugo"
         },
         {
@@ -91,6 +91,11 @@
         {
           "begin": "\"",
           "end": "\"",
+          "name": "string.quoted.single.hugo"
+        },
+        {
+          "begin": "`",
+          "end": "`",
           "name": "string.quoted.single.hugo"
         }
       ]
