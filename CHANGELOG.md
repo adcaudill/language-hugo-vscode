@@ -1,9 +1,12 @@
 # Change Log
 
+## 2.0.0
+
+- Project forked to correct various issues and bugs.
+
 ## 1.3.1
 
 - Reconcile version with VSCode Marketplace
-
 
 ## 1.2.2
 

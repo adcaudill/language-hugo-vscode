@@ -1,6 +1,11 @@
-# language-hugo README
+# language-hugo-vscode
 
 Syntax highlighting and snippets for [Hugo](https://gohugo.io/) websites.
+
+## Fork
+
+This is a fork of [language-hugo-vscode](https://github.com/theNewDynamic/language-hugo-vscode) which has not
+been updated in a few years. This fork is to address a few issues that are preventing me from using it properly.
 
 ## Features
 
